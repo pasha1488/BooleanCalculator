@@ -1,0 +1,56 @@
+.button {
+    -fx-fill: black;
+    -fx-font-style: italic;
+    -fx-font-size: 12px;
+    -fx-background-color: #71b061;
+    -fx-border-color: #5f8653;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-alignment: center;
+    -fx-border-style: solid;
+    -fx-pref-width: 52px;
+}
+
+.button:hover{
+    -fx-background-color: #23dc0a;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+.button:pressed{
+    -fx-background-color: #babf33;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+.text-field{
+    -fx-alignment: center;
+    -fx-background-color: #acd780;
+    -fx-text-fill: #000000;
+    -fx-border-color: #428d41;
+    -fx-border-width: 2px;
+}
+
+.text-area{
+    -fx-alignment: center;
+    -fx-text-fill: #199b07;
+    -fx-font-size: 14px;
+    -fx-border-color: #428d41;
+    -fx-border-width: 2px;
+}
+
+.choice-box{
+    -fx-background-color: #71b061;
+    -fx-border-color: #5f8653;
+    -fx-border-width: 2px;
+}
+
+.GridPane{
+    -fx-grid-lines-visible: true;
+    -fx-background-color: #9ede9e;
+}
+
+.AnchorPane{
+    -fx-background-color: #68a759;
+}
